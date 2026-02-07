@@ -14,6 +14,15 @@ pnpm dev
 bun dev
 ```
 
+Example .env
+```
+NEXT_PUBLIC_API_URL=http://localhost:3000/api
+DATABASE_URL="mysql://root:@localhost:3306/catering_db"
+NEXTAUTH_SECRET="rahasia-negara"
+NEXTAUTH_URL="http://localhost:3000"
+JWT_SECRET="rahasia-negara"
+```
+
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
 You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
