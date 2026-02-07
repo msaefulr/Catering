@@ -8,7 +8,7 @@ import { Card, CardContent, CardHeader, CardTitle, CardFooter, CardDescription }
 import { RadioGroup, RadioGroupItem } from "@/components/ui/radio-group"
 import { Label } from "@/components/ui/label"
 import { useToast } from "@/hooks/use-toast"
-import { ShoppingCart, CreditCard, ShieldCheck, Truck, ArrowLeft, Landmark } from 'lucide-react'
+import { ShoppingCart, CreditCard, ShieldCheck, Truck, ArrowLeft, Landmark, Badge } from 'lucide-react'
 import Link from 'next/link'
 
 function CheckoutContent() {
